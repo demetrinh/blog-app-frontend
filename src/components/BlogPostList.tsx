@@ -8,7 +8,7 @@ interface Props {
 const BlogPostList = ({ blogPosts }: Props) => {
   return (
     <div className="BlogPostList">
-      <p>List should be here </p>
+      <p>List should be here !</p>
       <ul>
         {blogPosts.map((post) => (
           <li>

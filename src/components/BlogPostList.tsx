@@ -12,6 +12,7 @@ const BlogPostList = ({ blogPosts }: Props) => {
       <ul>
         {blogPosts.map((post) => (
           <li>
+            <p>blogPosts.map is working!</p>
             <p>{post.title}</p>
             <p>{post.author}</p>
             <p>{post.date}</p>
